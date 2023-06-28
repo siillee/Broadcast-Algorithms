@@ -1,0 +1,5 @@
+My PID: 71696
+
+Immediately stopping network packet processing.
+From a new terminal type `kill -SIGINT 71696` or `kill -SIGTERM 71696` to stop processing packets
+

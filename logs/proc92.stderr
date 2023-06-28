@@ -1,0 +1,4 @@
+java.net.SocketException: Socket is closed
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:660)
+	at cs451.UDP.lambda$startSendThread$0(UDP.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:829)

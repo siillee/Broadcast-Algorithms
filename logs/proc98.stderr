@@ -1,0 +1,3 @@
+Exception in thread "Thread-0" java.lang.NullPointerException
+	at cs451.Main.handleSignal(Main.java:33)
+	at cs451.Main$1.run(Main.java:49)

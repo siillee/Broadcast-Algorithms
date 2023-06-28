@@ -1,0 +1,10 @@
+java.net.SocketException: Socket closed
+	at java.base/java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:200)
+	at java.base/java.net.DatagramSocket.receive(DatagramSocket.java:814)
+	at cs451.UDP.lambda$startReceiveThread$1(UDP.java:102)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.net.SocketException: Socket is closed
+	at java.base/java.net.DatagramSocket.send(DatagramSocket.java:660)
+	at cs451.UDP.lambda$startSendThread$0(UDP.java:85)
+	at java.base/java.lang.Thread.run(Thread.java:829)

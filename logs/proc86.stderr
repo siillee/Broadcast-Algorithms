@@ -1,0 +1,11 @@
+Exception in thread "Thread-3" java.lang.NullPointerException
+	at cs451.LatticeAgreement.deliverProposal(LatticeAgreement.java:189)
+	at cs451.LatticeAgreement.deliver(LatticeAgreement.java:167)
+	at cs451.PerfectLinks.lambda$startReceiverThreads$1(PerfectLinks.java:133)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.net.SocketException: Socket closed
+	at java.base/java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:200)
+	at java.base/java.net.DatagramSocket.receive(DatagramSocket.java:814)
+	at cs451.UDP.lambda$startReceiveThread$1(UDP.java:102)
+	at java.base/java.lang.Thread.run(Thread.java:829)
